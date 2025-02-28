@@ -1,6 +1,8 @@
 # 💬 Interactive Chatbot Messaging App
+
 An interactive chatbot messaging app built using Next.js and Socket.IO, designed for real-time chat functionality. This chatbot responds dynamically to user queries, and the app maintains a message history, displaying both sent messages and bot responses.
 This project leverages the power of React.js components, Next.js for server-side rendering, and WebSockets (Socket.IO) for real-time two-way communication.
+
 ---
 
 *COMPANY*: CODTECH IT SOLUTIONS  
@@ -34,17 +36,17 @@ This project leverages the power of React.js components, Next.js for server-side
 ## 📌 How to Run the Project
 Follow these steps to run the Chatbot Messaging App on your local system:
 
-# 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 Open PowerShell or Command Prompt and run:
 git clone https://github.com/your-repo-url
 cd task2
-# 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 Run the following command to install all required Node.js dependencies:
 npm install
-# 3️⃣ Start the WebSocket Server
+### 3️⃣ Start the WebSocket Server
 Navigate to the server directory and start the Socket.IO server:
 node server/index.js
-# 4️⃣ Start the Next.js App
+### 4️⃣ Start the Next.js App
 Run the front-end application:
 npm run dev
 The app should now be running on http://localhost:3000 🚀
@@ -82,6 +84,7 @@ task2/
 │── postcss.config.mjs         # PostCSS configuration
 │── tailwind.config.mjs        # Tailwind CSS config
 │── README.md                  # Project documentation
+
 ## 📂 Explanation
 app/ – Contains Next.js components and API routes.
 components/ – Modular React components for chat functionality.
@@ -93,11 +96,11 @@ package.json – Lists dependencies like Next.js, React, and Socket.IO.
 You can deploy this app on Vercel or any Node.js hosting service.
 
 🔹 Deploy to Vercel
-# 1️⃣ Install Vercel CLI:
+### 1️⃣ Install Vercel CLI:
 🔹 npm install -g vercel
-# 2️⃣ Deploy the app:
+### 2️⃣ Deploy the app:
 🔹 vercel
-# 3️⃣ Follow the on-screen instructions to complete deployment.
+### 3️⃣ Follow the on-screen instructions to complete deployment.
 
 ## 🔧 Future Enhancements
 🔹 User Authentication – Allow multiple users to chat simultaneously.
