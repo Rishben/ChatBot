@@ -65,67 +65,6 @@ Run the front-end application:
 npm run dev
 The app should now be running on http://localhost:3000 🚀
 
-## 📂 Project Structure
-python
-Copy
-Edit
-task2/
-│── .next/                    # Next.js build files
-
-│── app/
-
-│   ├── api/                   # API routes for server-side functionality
-
-│   ├── components/            # React components
-
-│   │   ├── ChatInput.js       # Input field for user messages
-
-│   │   ├── ChatWindow.js      # Main chat window container
-
-│   │   ├── Message.js         # Individual chat message component
-
-│   │   ├── MessageList.js     # Displays list of messages
-
-│   ├── globals.css            # Global CSS styles
-
-│   ├── layout.js              # Page layout structure
-
-│   ├── page.js                # Main landing page
-
-│── public/                    # Static assets like icons/images
-
-│   ├── file.svg
-
-│   ├── globe.svg
-
-│   ├── next.svg
-
-│   ├── vercel.svg
-
-│   ├── window.svg
-
-│── server/                    # WebSocket server setup
-
-│   ├── index.js               # Server entry point
-
-│   ├── socket.js              # Handles socket events
-
-│── .gitignore                 # Ignored files for Git
-
-│── jsconfig.json              # JavaScript config for Next.js
-
-│── next.config.mjs            # Next.js configuration
-
-│── package.json               # Project dependencies
-
-│── package-lock.json          # Dependency lock file
-
-│── postcss.config.mjs         # PostCSS configuration
-
-│── tailwind.config.mjs        # Tailwind CSS config
-
-│── README.md                  # Project documentation
-
 ## 📂 Explanation
 
 **app/** – Contains Next.js components and API routes.
